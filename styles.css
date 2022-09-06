@@ -1,47 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
-</style>
 
-; root {
-    --primary-color: #1f054b;
-}
-body{
-    color:red;
-}
 
-h2{
-    color:aqua;
+:root {
+    --primary-color: #1d4ed8;
+    --dak-grey: #6b7280;
+    --steel-grey:#d1d5db;
 }
 
-#paint{
-    color:black;
+hr {
+    margin: 2rem 0rem;
 }
 
-.para{
-    color:pink;
+body {
+
+    color: ;
 }
 
-body{
-font-family: 'Source Code Pro', 
-monospace;
+h2 {
+    color: aqua;
 }
 
-.container{
+#paint {
+    color: black;
+}
+
+.para {
+    color: pink;
+}
+
+body {
+    font-family: 'Source Code Pro',
+        monospace;
+    margin: 0px;    
+}
+
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
-.link-primary{
+.link {
     text-decoration: none;
-    padding: 0.5 rem 1 rem;
+    padding: 0.5rem 2rem;
 }
 
-.link-primary{
+.link-primary {
+    background-color:
+        var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline-unordered {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+    background-color:
+        var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** header**/
+
+.hero {
+    padding: 1rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dak-grey);
+    text-align: center;
+}
+
+.section{
+    padding: 1rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--steel-grey);
+}
+
+.footer{
     background-color: var(--primary-color);
-    border-radius: 0.5 rem;
-    color: blue;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
