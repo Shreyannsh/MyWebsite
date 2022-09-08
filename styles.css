@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Tiro+Devanagari+Hindi:ital@1&display=swap');
 
 :root {
     --primary-color: #1d4ed8;
-    --dak-grey: #6b7280;
+    --dark-grey: #6b7280;
     --steel-grey:#d1d5db;
 }
 
@@ -11,13 +11,8 @@ hr {
     margin: 2rem 0rem;
 }
 
-body {
-
-    color: ;
-}
-
 h2 {
-    color: aqua;
+    color: maroon;
 }
 
 #paint {
@@ -29,14 +24,15 @@ h2 {
 }
 
 body {
-    font-family: 'Source Code Pro',
-        monospace;
-    margin: 0px;    
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Tiro Devanagari Hindi', serif;
 }
 
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
 }
 
 .container-center {
@@ -46,7 +42,7 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .link-primary {
@@ -77,12 +73,13 @@ body {
     background-color:
         var(--primary-color);
     color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    padding: 1.5rem 1rem;
+    border-bottom-left-radius: 1.5rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: x-large;
 }
 
 .navigation .nav-pills {
@@ -101,6 +98,7 @@ body {
 
 .hero {
     padding: 1rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -112,16 +110,19 @@ body {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--dak-grey);
+    color: var(--dark-grey);
     text-align: center;
 }
 
 .section{
-    padding: 1rem;
+    padding: 2rem;
 }
 
-.section h1{
+.section h1,p{
     text-align: center;
+}
+.center{
+    margin:auto;
 }
 
 .ow{
@@ -130,7 +131,8 @@ body {
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -145,6 +147,24 @@ body {
     font-size: large;
 }
 
+.italic{
+font-style:oblique;
+}
+
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.space{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.space-small{
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+.back{
+    background-color: var(--steel-grey);
 }
