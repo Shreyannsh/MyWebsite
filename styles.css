@@ -26,6 +26,7 @@ h2 {
 body {
     font-family: 'Source Code Pro', monospace;
     font-family: 'Tiro Devanagari Hindi', serif;
+    margin: 0px auto;
 }
 
 .container {
