@@ -109,7 +109,7 @@ body {
 
 .hero {
     padding: 1rem;
-    padding-top: 3rem;
+    padding-top: 0x`;
 }
 
 .hero .hero-img {
@@ -122,11 +122,11 @@ body {
 }
 
 .hero .hero-heading {
-    padding-top: 1rem;
+    margin-top: 0%;
     color: var(--dark-grey);
     text-align: center;
-    
-}
+    font-size: 3rem;
+    }
 
 .section{
     padding: 2rem;
