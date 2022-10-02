@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Tiro+Devanagari+Hindi:ital@1&display=swap');
 
+
 :root {
     --primary-color: #1d4ed8;
     --dark-grey: #6b7280;
@@ -133,7 +134,8 @@ body {
 }
 
 .section h1,p{
-    text-align: center;
+    text-align: left;
+
 }
 .center{
     margin:auto;
