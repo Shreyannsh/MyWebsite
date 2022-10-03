@@ -110,7 +110,7 @@ body {
 
 .hero {
     padding: 1rem;
-    padding-top: 0px;
+    padding-top: 0.5px;
 }
 
 .hero .hero-img {
@@ -118,7 +118,7 @@ body {
     display: block;
     margin: auto;
     height:300px;
-    margin-bottom: ;
+    margin-bottom: 0;
     
 }
 
