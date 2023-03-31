@@ -54,6 +54,7 @@ body {
 
 .link {
     text-decoration: none;
+    font-size: 24px;
     padding: 1rem 2rem;
 }
 
@@ -91,7 +92,8 @@ body {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 40px;
+    padding : ;
 }
 
 .navigation .nav-pills {
