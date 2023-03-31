@@ -93,7 +93,6 @@ body {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 40px;
-    padding : ;
 }
 
 .navigation .nav-pills {
@@ -116,7 +115,7 @@ body {
 }
 
 .hero .hero-img {
-    max-width: 650px;
+    max-width: 950px;
     display: block;
     margin: auto;
     height:300px;
