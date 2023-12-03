@@ -1,189 +1,185 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Tiro+Devanagari+Hindi:ital@1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Tiro+Devanagari+Hindi:ital@1&display=swap");
 
 :root {
-    --primary-color: #1d4ed8;
-    --dark-grey: #6b7280;
-    --steel-grey:#d1d5db;
+  --primary-color: #1d4ed8;
+  --dark-grey: #6b7280;
+  --steel-grey: #d1d5db;
 }
 
 hr {
-    margin-top: 3rem;
-    max-width: 700px;
-
+  margin-top: 3rem;
+  max-width: 700px;
 }
 
-h1{
-    font-size: 2rem;
+h1 {
+  font-size: 2rem;
 }
 
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
 }
 
 h2 {
-    color: maroon;
+  color: maroon;
 }
 
 #paint {
-    color: black;
+  color: black;
 }
 
 .para {
-    color: pink;
+  color: pink;
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
-    font-family: 'Tiro Devanagari Hindi', serif;
-    margin: 0px auto;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Tiro Devanagari Hindi", serif;
+  margin: 0px auto;
 }
 
 .container {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 1rem;
-    padding-top: 0rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 0rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 .link {
-    text-decoration: none;
-    font-size: 24px;
-    padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 1rem 2rem;
 }
 
 .link-primary {
-    background-color:
-        var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
 
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 
 .list-inline-unordered {
-    display: inline;
-    padding: 0rem 1rem;
+  display: inline;
+  padding: 0rem 1rem;
 }
 
 /** navigation **/
 
 .navigation {
-    background-color:
-        var(--primary-color);
-    color: white;
-    padding: 1.5rem 1rem;
-    border-bottom-left-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0rem;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 40px;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .navigation .link {
-    color: white;
+  color: white;
 }
 
 .navigation .link-active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /** header**/
 
 .hero {
-    padding: 1rem;
-    padding-top: 0px;
+  padding: 1rem;
+  padding-top: 0px;
 }
 
 .hero .hero-img {
-    max-width: 950px;
-    display: block;
-    margin: auto;
-    height:300px;
-    margin-bottom: 0;
-    
+  max-width: 950px;
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0;
 }
 
 .hero .hero-heading {
-    margin-top: 0%;
-    color: var(--dark-grey);
-    text-align: center;
-    font-size: 3rem;
-    }
-
-.section{
-    padding: 0.5rem;
+  margin-top: 0%;
+  color: var(--dark-grey);
+  text-align: center;
+  font-size: 3rem;
 }
 
-.section h1,p{
-    text-align: left;
-
-}
-.center{
-    margin:auto;
+.section {
+  padding: 0.5rem;
 }
 
-.ow{
-    background-color: var(--steel-grey);
+.section h1,
+p {
+  text-align: left;
+}
+.center {
+  margin: auto;
 }
 
-.footer{
-    background-color: var(--primary-color);
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
+.ow {
+  background-color: var(--steel-grey);
 }
 
-.footer .link{
-    color:white
+.footer {
+  background-color: var(--primary-color);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: white;
 }
 
-.footer .footer-header{
-    font-weight: bold;
-    font-size: x-large;
+.footer .link {
+  color: white;
 }
 
-.italic{
-font-style:oblique;
+.footer .footer-header {
+  font-weight: bold;
+  font-size: x-large;
 }
 
-.footer ul{
-    padding-inline-start: 0px;
+.italic {
+  font-style: oblique;
 }
 
-.space{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.footer ul {
+  padding-inline-start: 0px;
 }
 
-.space-small{
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    margin: 0.5rem;
+.space {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.back{
-    background-color: var(--steel-grey);
+.space-small {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  margin: 0.5rem;
 }
 
+.back {
+  background-color: var(--steel-grey);
+}
