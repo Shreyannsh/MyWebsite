@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Tiro+Devanagari+Hindi:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Noto+Serif&family=Permanent+Marker&family=Roboto&family=Satisfy&display=swap");
 
 :root {
   --primary-color: #1d4ed8;
@@ -8,6 +8,7 @@
 
 hr {
   margin-top: 3rem;
+  margin-bottom: 3rem;
   max-width: 700px;
 }
 
@@ -32,8 +33,7 @@ h2 {
 }
 
 body {
-  font-family: "Source Code Pro", monospace;
-  font-family: "Tiro Devanagari Hindi", serif;
+  font-family: "Noto Serif", serif;
   margin: 0px auto;
 }
 
@@ -49,22 +49,34 @@ body {
   margin: auto;
 }
 
+.link-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .link {
   text-decoration: none;
-  font-size: 24px;
-  padding: 1rem 2rem;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: rgb(41, 41, 41);
 }
 
 .link-primary {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  margin: 0.5rem;
 }
 
 .link-secondary {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  margin: 0.5rem;
 }
 
 .list-non-bullet {
@@ -90,6 +102,7 @@ body {
 .navigation .nav-brand {
   font-weight: bold;
   font-size: 40px;
+  margin-left: 1rem;
 }
 
 .navigation .nav-pills {
@@ -98,6 +111,11 @@ body {
 
 .navigation .link {
   color: white;
+}
+
+.navigation .link:hover {
+  font-weight: bolder;
+  background-color: var(--primary-color);
 }
 
 .navigation .link-active {
@@ -130,11 +148,13 @@ body {
 
 .section {
   padding: 0.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .section h1,
 p {
   text-align: left;
+  margin-top: 1rem;
 }
 .center {
   margin: auto;
@@ -144,10 +164,13 @@ p {
   background-color: var(--steel-grey);
 }
 
+/* Footer */
+
 .footer {
   background-color: var(--primary-color);
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  margin-top: 5rem;
+  padding-top: 0rem;
+  padding-bottom: 0.1rem;
   text-align: center;
   color: white;
 }
@@ -156,9 +179,15 @@ p {
   color: white;
 }
 
+.footer .link:hover {
+  font-weight: bolder;
+  background-color: var(--primary-color);
+}
+
 .footer .footer-header {
   font-weight: bold;
   font-size: x-large;
+  padding-top: 0.8rem;
 }
 
 .italic {
@@ -167,7 +196,10 @@ p {
 
 .footer ul {
   padding-inline-start: 0px;
+  margin-top: 2rem;
 }
+
+/* spacing */
 
 .space {
   padding-top: 2rem;
@@ -175,7 +207,7 @@ p {
 }
 
 .space-small {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   margin: 0.5rem;
 }
